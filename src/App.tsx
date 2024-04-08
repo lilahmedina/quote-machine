@@ -20,6 +20,7 @@ function App() {
   const changeQuote = () => {
     setQuote(getRandomQuote());
   }
+  
   return (
   <div className="background">
     <div id="quote-box">
