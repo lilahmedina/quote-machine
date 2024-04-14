@@ -30,7 +30,9 @@ const getRandomColor = (): string => {
     '#77B1A9',
     '#73A857'
   ];
-  return colors[Math.floor(Math.random() * quotes.length)];
+  //console.log(colors[0]);
+  return colors[Math.floor(Math.random() * colors.length)];
+  
 }
 
 const transition = "all 1s";
@@ -74,6 +76,7 @@ function App() {
         <button id="new-quote" onClick={changeQuote}
         style={{ backgroundColor: randomColor, transition }}
         >Change Quote</button>
+
       </div>
     </div>
   </div>
