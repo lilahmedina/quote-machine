@@ -16,7 +16,7 @@
   padding: 2rem;
   text-align: left;
   /*background-color: #444;*/
-  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+  background: #4b4b4b;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   color: antiquewhite;

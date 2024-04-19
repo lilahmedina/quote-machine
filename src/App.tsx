@@ -65,7 +65,7 @@ function App() {
         target='_blank'
         id="tweet-quote"
         style={{
-          backgroundColor: "lightblue",
+          backgroundColor: "dodgerblue",
           marginRight: "15px",
           transition, 
         }} > 
