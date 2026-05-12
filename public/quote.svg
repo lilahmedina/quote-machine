@@ -1,0 +1,14 @@
+"qute favicon"
+
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="#1E293B"/>
+
+  <!-- Quote marks -->
+  <path d="M40 52c0-8 6-14 14-14v10c-3 0-5 2-5 5v5h10v20H40V52z" fill="#38BDF8"/>
+  <path d="M74 52c0-8 6-14 14-14v10c-3 0-5 2-5 5v5h10v20H74V52z" fill="#38BDF8"/>
+
+  <!-- Small sparkle/dot for "random" feel -->
+  <circle cx="64" cy="92" r="4" fill="#F472B6"/>
+</svg>
