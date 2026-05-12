@@ -61,6 +61,10 @@ function App() {
       </div>
 
       <div className="buttons">
+
+      
+        {/* 
+        Twitter is identifies as X now.
         <a href="https://twitter.com/intent/tweet" 
         target='_blank'
         id="tweet-quote"
@@ -71,7 +75,7 @@ function App() {
         }} > 
         
         <FaTwitter color="vanilla"></FaTwitter> 
-        </a>
+        </a> */}
         
         <button id="new-quote" onClick={changeQuote}
         style={{ backgroundColor: randomColor, transition }}
