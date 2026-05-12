@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import quotes from "./assets/quotes.json";
-import {FaTwitter, FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
+import {FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import './App.css';
 
 
@@ -62,20 +62,7 @@ function App() {
 
       <div className="buttons">
 
-      
-        {/* 
-        Twitter is identifies as X now.
-        <a href="https://twitter.com/intent/tweet" 
-        target='_blank'
-        id="tweet-quote"
-        style={{
-          backgroundColor: "dodgerblue",
-          marginRight: "15px",
-          transition, 
-        }} > 
-        
-        <FaTwitter color="vanilla"></FaTwitter> 
-        </a> */}
+
         
         <button id="new-quote" onClick={changeQuote}
         style={{ backgroundColor: randomColor, transition }}
